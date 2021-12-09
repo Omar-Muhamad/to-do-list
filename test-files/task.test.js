@@ -37,5 +37,6 @@ describe('Testing add and remove', () => {
 
     task.remove(list, task1, list.list[0]);
     expect(list.list).toHaveLength(1);
+    
   });
 });
